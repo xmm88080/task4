@@ -1,0 +1,36 @@
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    margin-left:-200px ;
+     margin-top: -200px; 
+    height: 200px;
+    width: 400px;
+    background-color: #cccccc;
+
+}
+.re{
+    position: relative;
+    height: 200px;
+    width: 400px;
+}
+.re .l_t{
+    position:absolute;
+    top:0;
+    left: 0;
+   
+    width: 50px;
+    height: 50px;
+    border-radius:0 0 50px 0;
+    background-color: #fc0;
+}
+.re .r_b{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+   
+    width: 50px;
+    height: 50px;
+    border-radius:50px 0 0 0;
+    background-color: #fc0;
+}
